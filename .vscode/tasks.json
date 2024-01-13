@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++", // or "clang++" if you're using clang
+            "args": [
+                "-g",
+                "${file}", // Compiles the current open file
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}" // Output executable with the same name as the source file in the same directory
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

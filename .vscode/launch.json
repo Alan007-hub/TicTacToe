@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch with LLDB",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/a.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb",
+      "logging": {
+        "engineLogging": false
+      }
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/alan/Desktop/SelfProgramming/C++/TicTacToe2.0",
+      "program": "/Users/alan/Desktop/SelfProgramming/C++/TicTacToe2.0/build/Debug/outDebug"
+    }
+  ]
+}
